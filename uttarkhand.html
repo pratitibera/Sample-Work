@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CHOPTA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .main{
+      position: relative;
+      background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.19)), url(imag.jpg);
+      min-height: 100vh;
+      background-size: cover;
+      background-position: center;
+      padding: 180px 0 160px;
+    }
+    .main h6{
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+      color: #fff;
+      animation: animate 2s 1;
+    }
+    .main p{
+      margin-top: 50px;
+      padding: 0;
+      font-size: 1em;
+      color: #fff;
+      animation: animate 2s 1;
+    }
+    .main .btn{
+      margin-top: 40px;
+      background: #718093;
+      color: #fff;
+      border-radius: 5px;
+      animation: animate 2s 1;
+    }
+    @media(max-width: 768px){
+      .main{
+        padding: 200px 0;
+      }
+      .main h6{
+        font-size: .9em;
+      }
+    }
+    @keyframes animate{
+      0%{
+        transform: scale(0);
+      }
+      100%{
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h6 style="margin-top: -100px;">CAPITAL: Dehradun, Gairsain</h6>
+        <p>At a Glance: Uttarakhand, a state in northern India crossed by the Himalayas, is known for its Hindu pilgrimage sites. Rishikesh, a major centre for yoga study, was made famous by the Beatles’ 1968 visit. The city hosts the evening Ganga Aarti, a spiritual gathering on the sacred Ganges River. The state's forested Jim Corbett National Park shelters Bengal tigers and other native wildlife.</p>
+        <h6 style="margin-top: 80px;">FAMOUS PILGRIMAGE SITE- CHAR DHAM YATRA: Uttarakhand is famous for Char Dham Yatra, which literally meaning 'journey to four centres'. These four religious centres in Uttarakhand are represented by Badrinath (dedicated to Lord Vishnu), Kedarnath(dedicated to Lord Shiva), Gangotri (the holy origin of river Ganga)and Yamunotri (the holy origin of river Yamuna).</h6>
+        <a href="https://uttarakhandtourism.gov.in/" class="btn">Click Here to Explore</a>
+       </div>
+    </div> 
+  </div>
+</section>
+
+</body>
+</html>
